@@ -7,7 +7,7 @@ app.get('/games', (request, response) => {
   return response.json([])
 })
 
-app.post('ads/',(request, response)=> {
+app.post('ads/', (request, response) => {
   return response.status(201).json([])
 })
 
